@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #727a7a;
+}
+
+h2 {
+	font-size: 25px;
+	color: #727a7a;
+}
+
+h3 {
+	font-size: 20px;
+	color: #727a7a;
+}
+
+p {
+	color: #727a7a;
+}
+
+.konten {
+	width: 800px;
+    height: auto;
+    display: block;
+    background: #ffff;
+    padding: 0 10px 10px 30px;
+    margin: 50px auto;
+}
+
+.judul {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	width: 780px;
+    
+}
+
+.form {
+	width: 780px;
+	height: auto;
+	padding-top: 10px;
+}
+
+input[type="text1"] {
+    width: 760px;
+    padding: 10px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+input[type="text2"] {
+    width: 760px;
+    padding: 10px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+select[name="kategori"] {
+    width: 783px;
+    padding: 9px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+ }
+
+ input[type="text3"] {
+    width: 250px;
+    padding: 10px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+select[name="harga"] {
+    width: 100px;
+    margin: 5px 0 0 10px;
+    padding: 9px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+input[type="text4"] {
+    width: 100px;
+    padding: 10px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+select[name="satuan"] {
+    width: 100px;
+    margin: 5px 0 0 10px;
+    padding: 9px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+input[type="text5"] {
+    width: 100px;
+    padding: 10px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+select[name="satuanpanjang"] {
+    width: 100px;
+    margin: 5px 0 0 10px;
+    padding: 9px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+textarea {
+    width: 600px;
+    height: 100px;
+    padding: 10px 10px;
+    margin: 5px 0 10px 0;
+    color: #727a7a;
+}
+
+input[type="text6"] {
+    width: 100px;
+    padding: 10px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+select[name="negara"] {
+    width: 200px;
+    margin: 5px 0 0 10px;
+    padding: 9px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    color: #727a7a;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.rowUpload {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.rowUpload>input{
+    display: none;
+    text-align: center;
+    padding-left: 50%;
+}
+
+.rowUpload>label {
+    padding-bottom: 20px;
+}
+
+.rowUpload img {
+    display: none;
+    padding: 50px;
+    cursor: pointer;
+    display: block;
+    width: 70px;
+    background: white;
+    color: black;
+    font-size: 12px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, .09);
+}
+
+input[type="submit"] {
+    padding: 10px;
+    margin: 20px 10px 20px 0;
+    width: 200px;
+    height: auto;
+    color: #727a7a;
+    background-color: #ffff;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 1px 4px rgb(150, 150, 150, 0.8);
+    font-weight: bold;
+}
+input[type="submit"]:hover {
+    padding: 10px;
+    margin: 20px 10px 20px 0;
+    width: 200px;
+    height: auto;
+    background-color: #727a7a;
+    color: #ffff;
+    border-radius: 7px;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    cursor: pointer;
+}
